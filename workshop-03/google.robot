@@ -6,9 +6,9 @@ Library    SeleniumLibrary
 *** Test Cases *** 
 เปิด Google Chrome
     Open Browser    http://www.google.co.th    Chrome
-    Input Text    q    bbeck_jtp
+    Input Text    q    beck
     Press Keys    q    RETURN
-    
+    Click Element    //*[@id="rso"]/div[1]/div/div[1]/a/h3
 
 *** Keywords ***
     1.เข้าเว็ป google.co.th
